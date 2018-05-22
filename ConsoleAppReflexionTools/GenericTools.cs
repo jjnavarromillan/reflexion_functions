@@ -8,7 +8,7 @@ namespace ConsoleAppReflexionTools
     public static class GenericTools
     {
 
-        /*This classes I use them for Deserialize EntityFrameWork*/
+        
         public static T PassClassToClass<T>(T OrigenClass)
         {
             T DestinyClass = Activator.CreateInstance<T>();
